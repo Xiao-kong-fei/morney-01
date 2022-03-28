@@ -1,7 +1,7 @@
 <template>
     <div class="nav-wrapper">
         <div class="content">
-            Money.vue
+            <p>Money.vue</p>
         </div>
         <Nav/>
     </div>
