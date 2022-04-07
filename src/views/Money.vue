@@ -1,7 +1,7 @@
 <template>
     <layout class-prefix="layout">
         <NumberPad/>
-        <Types :xxx="333"/>
+        <Types/>
         <Notes/>
         <Tags/>
     </layout>
@@ -20,7 +20,6 @@
 
 <style lang="scss">
     .layout-content {
-        border: 3px solid red;
         display: flex;
         flex-direction: column-reverse;
     }
