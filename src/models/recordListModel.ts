@@ -1,5 +1,5 @@
 const localStorageName = 'recordList'
-const tagListModel = {
+const recordListModel = {
     clone(data: RecordItem[] | RecordItem){
         return JSON.parse(JSON.stringify(data));
     },
@@ -11,4 +11,4 @@ const tagListModel = {
     }
 };
 
-export default tagListModel;
+export default recordListModel;
