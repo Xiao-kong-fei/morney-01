@@ -25,7 +25,7 @@
         components: {Button},
     })
     export default class Labels extends mixins(TagHelper){
-        get(){
+        get tags(){
             return this.$store.state.tagList;
         }
         beforeCreate(){
